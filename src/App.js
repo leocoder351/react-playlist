@@ -1,10 +1,11 @@
 import React from 'react';
-import Input from './components/Input'
+import 'antd/dist/antd.css';
+import NormalForm from './components/NormalForm';
 
 function App() {
   return (
     <div className="App">
-      <Input haha="haha" />
+      <NormalForm />
     </div>
   );
 }
