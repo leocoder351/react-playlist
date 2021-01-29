@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "antd": "3",
-    "react": "^16.14.0",
-    "react-dom": "^16.13.1",
+    "async-validator": "^3.5.1",
+    "frog-ui": "^0.1.1",
+    "react": "16.14.0",
+    "react-dom": "16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -33,6 +32,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@umijs/fabric": "^2.5.6",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6"
   }

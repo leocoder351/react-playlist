@@ -24,6 +24,7 @@ class NormalForm extends React.Component {
       >
         <Form.Item label="用户名：">
           {getFieldDecorator('username', {
+            initialValue: 'leocoder',
             rules: [{ required: true, message: 'Please input your username!' }],
           })(
             <Input
